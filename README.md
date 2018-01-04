@@ -10,7 +10,7 @@
 
 ##### 初始化UDG 方法    init: 其中accountId是必须传递的参数，是UDG分配的。
 
-var udg = api.require('UDG');
+var udg = api.require('UDG');</br>
 udg.initUDG({
 ​    accountId:'xxxx'
 });
@@ -19,14 +19,14 @@ udg.initUDG({
 
 ##### 设置用户Id: setUserId. 其中userId参数是业务系统的埋点标志
 
-var udg = api.require('UDG');
+var udg = api.require('UDG');</br>
 udg.setUserId({
 ​    userId:'xxxx'
 });
 
 ##### 埋点事件：trackEvent,其中eventName是必须传的参数，事件名称
 
-var udg = api.require('UDG');
+var udg = api.require('UDG');</br>
 udg.trackEvent({
 
 ​    eventName:'xxxx'，
@@ -37,7 +37,7 @@ udg.trackEvent({
 
 ##### 设置页面元素：setpageVariable
 
-var udg = api.require('UDG');
+var udg = api.require('UDG');</br>
 udg.setpageVariable({
 ​    xxx:'xxxx'
 });
