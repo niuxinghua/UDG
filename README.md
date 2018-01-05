@@ -12,7 +12,7 @@
 
 var udg = api.require('UDG');</br>
 udg.initUDG({
-​    accountId:'xxxx'
+​    accountId:'xxxx',scheme:'xxxx',channel:'xxxx'
 });
 
 
