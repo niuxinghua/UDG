@@ -8,7 +8,7 @@
 
 ##### API:
 
-##### 初始化UDG 方法    init: 其中accountId是必须传递的参数，是UDG分配的。
+##### 初始化UDG 方法    init: 其中accountId，scheme是必须传递的参数，是UDG分配的，channel是要统计的app渠道。
 
 var udg = api.require('UDG');</br>
 udg.initUDG({
