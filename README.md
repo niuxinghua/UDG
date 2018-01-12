@@ -13,9 +13,21 @@ android 与iOS 都需要分别配置
 ##### 初始化UDG 方法    init: 其中accountId，scheme是必须传递的参数，是UDG分配的，channel是要统计的app渠道。
 ##### 因为scheme不同，所以android与iOS需要客户端分别进行init方法
 var udg = api.require('UDG');</br>
+if(isiOS)
+{
+
 udg.initUDG({
-​    accountId:'xxxx',scheme:'xxxx',channel:'xxxx'
-});
+​    accountId:'xxxx',scheme:'iOSscheme',channel:'appstore'
+​    });
+
+}else if(android)
+{
+
+udg.initUDG({
+​    accountId:'xxxx',scheme:'androidshceme',channel:'androidchannel'
+​    });
+}
+
 
 
 
