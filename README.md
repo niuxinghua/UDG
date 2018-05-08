@@ -55,3 +55,10 @@ var udg = api.require('UDG');</br>
 udg.setpageVariable({
 ​    xxx:'xxxx'
 });
+
+##### 设置用户属性：setPeopleVariable
+
+var udg = api.require('UDG');</br>
+udg.setPeopleVariable({
+​    xxx:'xxxx'
+});
